@@ -11,37 +11,6 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-//console.log()
-//interface
-/*interface person{
-    fname:string,
-    sname:string,
-    hello:()=>string
-}
-var stud:person={fname:"fgh",sname:"tyu",hello:()=>{return "hello"}
-}
-console.log(stud.hello());
-console.log("welcome to ts");
-//class
-class emp{
-    name:string;
-    sal:number;
-    constructor(ty:string,pr:number){
-        this.sal=pr;
-        this.name=ty;
-    }
-    disp():void{
-        console.log(this.sal);
-    }
-}
-var xyz=new emp("rahul",100);
-console.log(xyz.name);
-xyz.disp();
-//lambda function
-var num=()=>{
-console.log(67);
-}
-num();*/
 var person = /** @class */ (function () {
     function person(name) {
         this.name = name;
